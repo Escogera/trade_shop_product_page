@@ -1,6 +1,16 @@
 @mixin contenCenter() {
     margin: 0 auto;
-    max-width: 1140px;
+    max-width: 1126px;
+}
+
+@mixin LaptopContenCenter() {
+    margin: 0 auto;
+    max-width: 1010px;
+}
+
+@mixin TabletContenCenter() {
+    margin: 0 auto;
+    max-width: 700px;
 }
 
 @mixin contentFlexCenter() {
