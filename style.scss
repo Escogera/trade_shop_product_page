@@ -413,27 +413,11 @@ a {
     .center {
         @include LaptopContenCenter();
     }
-    .main-center {
-        max-width: 100%;
-    }
-    .main-center__content {
-        padding: 65px 260px;
-    }
-    .product-box {}
 }
 
 @media(min-width:728px) and (max-width:1023px) {
     .center {
         @include TabletContenCenter();
-    }
-    .main-center {
-        max-width: 100%;
-    }
-    .main-center__content {
-        padding: 65px 107px;
-    }
-    .card-3 {
-        display: none;
     }
     .footer-top__content {
         padding: 64px 0 140px;
