@@ -342,7 +342,7 @@ a {
 }
 
 .footer-top__content-right {
-    width: 557px;
+    max-width: 557px;
     display: flex;
     flex-direction: column;
     align-items: center;
